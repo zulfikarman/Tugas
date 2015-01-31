@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emil.khasnyojambi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MakananActivity"
+            android:label="@string/title_activity_makanan" >
+        </activity>
+        <activity
+            android:name=".SouvenirActivity"
+            android:label="@string/title_activity_souvenir" >
+        </activity>
+        <activity
+            android:name=".CemilanActivity"
+            android:label="@string/title_activity_cemilan" >
+        </activity>
+        <activity
+            android:name=".JenisActivity"
+            android:label="@string/title_activity_jenis" >
+        </activity>
+        <activity
+            android:name=".JenisSouvenirActivity"
+            android:label="@string/title_activity_jenis_souvenir" >
+        </activity>
+        <activity
+            android:name=".TemphoyacActivity"
+            android:label="@string/title_activity_temphoyac" >
+        </activity>
+        <activity
+            android:name=".JakozActivity"
+            android:label="@string/title_activity_jakoz" >
+        </activity>
+        <activity
+            android:name=".KayoAnugerahActivity"
+            android:label="@string/title_activity_kayo_anugerah" >
+        </activity>
+        <activity
+            android:name=".JenisCemilanActivity"
+            android:label="@string/title_activity_jenis_cemilan" >
+        </activity>
+        <activity
+            android:name=".JenisKayoActivity"
+            android:label="@string/title_activity_jenis_kayo" >
+        </activity>
+        <activity
+            android:name=".JenisRizkiActivity"
+            android:label="@string/title_activity_jenis_rizki" >
+        </activity>
+    </application>
+
+</manifest>
